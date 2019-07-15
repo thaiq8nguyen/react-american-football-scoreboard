@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Controller.css";
 
-const Controller = ({handleTouchDownScore, handleFieldGoalScore}) => {
+const Controller = ({handleTouchDownScore, handleFieldGoalScore, toggleTimer, isPlaying}) => {
     return (
         <section className="buttons">
             <div className="homeButtons">      
@@ -11,6 +11,10 @@ const Controller = ({handleTouchDownScore, handleFieldGoalScore}) => {
             <div className="awayButtons">
                 <button className="awayButtons__touchdown" onClick={() => handleTouchDownScore("away")}>Away Touchdown</button>
                 <button className="awayButtons__fieldGoal" onClick={() => handleFieldGoalScore("away")}>Away Field Goal</button>
+                
+            </div>
+            <div className="settingButton">
+                <button className="button is-info" onClick={toggleTimer}>{isPlaying ? "Start":"Pause"}</button>
             </div>
         </section>
     )
