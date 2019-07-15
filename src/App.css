@@ -3,7 +3,7 @@
   --red: #ff2d2b;
 }
 
-.scoreboard {
+/* .scoreboard {
   width: 58%;
   margin: 10rem auto;
   background-color: #0b5402;
@@ -18,10 +18,10 @@
   display: flex;
   justify-content: space-around;
   place-items: center;
-  /* height: 20rem; */
-}
+  height: 20rem;
+} */
 
-.home,
+/* .home,
 .away {
   height: 100%;
   display: flex;
@@ -119,4 +119,4 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
-}
+} */
