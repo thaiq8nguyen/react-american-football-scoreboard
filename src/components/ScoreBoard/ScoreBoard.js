@@ -13,7 +13,7 @@ const ScoreBoard = ({scores, isPlaying}) => {
     
     const {homeScore, awayScore} = scores;
     const [time, setTime] = useState(start);
-    const quarterDuration = setMinutes(setSeconds(current,),1);
+    const quarterDuration = setMinutes(setSeconds(current,), 1);
 
     useEffect(() => {
         const isEndOfQuarter =  (time) => {
