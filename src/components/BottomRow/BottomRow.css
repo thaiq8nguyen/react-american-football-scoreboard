@@ -1,0 +1,40 @@
+.bottomRow {
+    /* display: flex;
+    justify-content: space-around;
+    place-items: center;
+    height: 20rem; */
+}
+  
+.down,
+.toGo,
+.ballOn,
+.quarter {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* place-items: center; */
+}
+  
+.down__value,
+.toGo__value,
+.ballOn__value,
+.quarter__value {
+    font-family: "Ozone";
+    font-size: 5rem;
+    color: var(--red);
+    width: 7rem;
+    text-align: center;
+    background-color: var(--black);
+    margin-top: 1rem;
+    border-radius: 4px;
+    padding: 1.6rem;
+    border: 1px solid white;
+}
+.down__title,
+.toGo__title,
+.ballOn__title,
+.quarter__title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    
+}
